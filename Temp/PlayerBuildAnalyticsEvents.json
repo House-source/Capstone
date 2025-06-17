@@ -1,0 +1,179 @@
+{
+  "player_build_data": [
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "3d599a5b69b738b46a15f4adceb7025c",
+        "build_player": 95904,
+        "preprocess_player": 25,
+        "produce_player_script_assemblies": 25155,
+        "build_scripts_dlls": 4009,
+        "writing_asset_files": 598,
+        "postprocess_built_player": 52843,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 1350
+          },
+          {
+            "name": "Csc",
+            "duration": 1582
+          },
+          {
+            "name": "Csc",
+            "duration": 2820
+          },
+          {
+            "name": "Csc",
+            "duration": 1673
+          },
+          {
+            "name": "Csc",
+            "duration": 1405
+          },
+          {
+            "name": "Csc",
+            "duration": 4358
+          },
+          {
+            "name": "Csc",
+            "duration": 1581
+          },
+          {
+            "name": "Csc",
+            "duration": 1583
+          },
+          {
+            "name": "Csc",
+            "duration": 4989
+          },
+          {
+            "name": "Csc",
+            "duration": 2426
+          },
+          {
+            "name": "Csc",
+            "duration": 3901
+          },
+          {
+            "name": "Csc",
+            "duration": 1884
+          },
+          {
+            "name": "Csc",
+            "duration": 4365
+          },
+          {
+            "name": "Csc",
+            "duration": 2098
+          },
+          {
+            "name": "Csc",
+            "duration": 7384
+          },
+          {
+            "name": "Csc",
+            "duration": 1820
+          },
+          {
+            "name": "Csc",
+            "duration": 1926
+          },
+          {
+            "name": "Csc",
+            "duration": 4379
+          },
+          {
+            "name": "Csc",
+            "duration": 2643
+          },
+          {
+            "name": "Csc",
+            "duration": 2552
+          },
+          {
+            "name": "Csc",
+            "duration": 5320
+          },
+          {
+            "name": "Csc",
+            "duration": 2440
+          },
+          {
+            "name": "Csc",
+            "duration": 1292
+          },
+          {
+            "name": "Csc",
+            "duration": 1907
+          },
+          {
+            "name": "Csc",
+            "duration": 4354
+          },
+          {
+            "name": "Csc",
+            "duration": 1196
+          },
+          {
+            "name": "Csc",
+            "duration": 2293
+          },
+          {
+            "name": "Csc",
+            "duration": 1893
+          },
+          {
+            "name": "Csc",
+            "duration": 4053
+          },
+          {
+            "name": "Csc",
+            "duration": 2935
+          },
+          {
+            "name": "Csc",
+            "duration": 1934
+          },
+          {
+            "name": "Csc",
+            "duration": 4821
+          },
+          {
+            "name": "Csc",
+            "duration": 4399
+          },
+          {
+            "name": "Csc",
+            "duration": 2557
+          },
+          {
+            "name": "Csc",
+            "duration": 4896
+          },
+          {
+            "name": "Csc",
+            "duration": 2128
+          },
+          {
+            "name": "Csc",
+            "duration": 1350
+          },
+          {
+            "name": "Csc",
+            "duration": 1582
+          },
+          {
+            "name": "Csc",
+            "duration": 1350
+          },
+          {
+            "name": "Csc",
+            "duration": 1582
+          }
+        ]
+      },
+      "version": 1
+    }
+  ]
+}
