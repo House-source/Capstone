@@ -56,9 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -71,8 +68,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\PostProcessing\CinemachinePostProcessing.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachineBlenderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachineVirtualCameraBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Timeline\CinemachineShotPlayable.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Timeline\CinemachineShotPlayable.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineExternalCamera.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\ThirdParty\clipper.cs" />
@@ -108,8 +105,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachinePropertyAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Impulse\CinemachineImpulseDefinition.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\UnityVectorExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineCameraOffset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\UnityVectorExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineConfiner.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachineBlend.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CameraState.cs" />
@@ -496,6 +493,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -522,10 +523,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

@@ -56,15 +56,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Game Screens\BlockSmasher\DeadzoneScript.cs" />
+    <Compile Include="Assets\Game Screens\BlockSmasher\BrickScript.cs" />
+    <Compile Include="Assets\Game Screens\BlockSmasher\PaddleScript.cs" />
     <Compile Include="Assets\Game Screens\Title Screen\TitleScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Game Screens\BlockSmasher\BlockSmasherGameManagerScript.cs" />
+    <Compile Include="Assets\Game Screens\BlockSmasher\BallScript.cs" />
     <Compile Include="Assets\Game Screens\Level Select\LevelSelectScript.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -347,12 +349,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -877,13 +879,13 @@
       <Project>{38334240-B984-554B-134D-15A15F21330D}</Project>
       <Name>Unity.Animation.Rigging.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Profiling.Core.Player.csproj">
-      <Project>{E728315D-FA16-AA93-D3DD-D008F8848104}</Project>
-      <Name>Unity.Profiling.Core.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Notifications.Unified.Player.csproj">
       <Project>{3ADB28D0-C80B-1D3C-68B2-D82EEFB2F3B5}</Project>
       <Name>Unity.Notifications.Unified.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Profiling.Core.Player.csproj">
+      <Project>{E728315D-FA16-AA93-D3DD-D008F8848104}</Project>
+      <Name>Unity.Profiling.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
       <Project>{9B051971-621F-9327-2670-DEE4DB0D31B4}</Project>
@@ -897,6 +899,10 @@
       <Project>{213D521C-FFE7-93A4-A162-640E4600632B}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.Player.csproj">
+      <Project>{70D09188-7A7B-7D36-A994-FD09E3C3E6CD}</Project>
+      <Name>Unity.2D.Animation.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Player.csproj">
       <Project>{2515B480-19C2-23F4-AE5E-AA88DFB84CF0}</Project>
       <Name>Unity.2D.Tilemap.Extras.Player</Name>
@@ -904,10 +910,6 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{C3FA0F9A-B31F-A7DA-B606-D345E1F09ACD}</Project>
       <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.Player.csproj">
-      <Project>{70D09188-7A7B-7D36-A994-FD09E3C3E6CD}</Project>
-      <Name>Unity.2D.Animation.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.Player.csproj">
       <Project>{4134A968-AFE9-D8BF-0E5B-F3F37D07653B}</Project>
@@ -933,13 +935,13 @@
       <Project>{1FD5E440-43A3-1F53-4393-ED1BA4DADD84}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Notifications.Android.Player.csproj">
-      <Project>{240C58C1-BCEF-2D70-4EA5-385C47EEAADB}</Project>
-      <Name>Unity.Notifications.Android.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Cinemachine.Player.csproj">
       <Project>{56DD756A-06A0-9674-9424-5F269858C80D}</Project>
       <Name>Cinemachine.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.Android.Player.csproj">
+      <Project>{240C58C1-BCEF-2D70-4EA5-385C47EEAADB}</Project>
+      <Name>Unity.Notifications.Android.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

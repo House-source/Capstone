@@ -11,6 +11,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Screens/Level Select/LevelSelectScreen.unity
     guid: 333cb2c49ba893242b9532cced22a6a5
+  - enabled: 1
+    path: Assets/Game Screens/ArcadeLevelSelectScreen/ArcadeLevelSelectScreen.unity
+    guid: 16ee6702c80d3d54ebfc92ec6c5068d6
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/BlockSmasherGlobal.unity
+    guid: 3385e8add4e32344cb6edc32efa00ecf
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/Level1.unity
+    guid: d85bd595e4cbccb45b3131050cb5e74c
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/Level2.unity
+    guid: 04f0151fe57e2a946b485d342c4d90f1
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/Level3.unity
+    guid: 13757d55e498a2a46a1af3d80e1428ed
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/Level4.unity
+    guid: 344720df50292174491bf8fbbe7d3d0e
+  - enabled: 1
+    path: Assets/Game Screens/BlockSmasher/Level5.unity
+    guid: 33ebaa2e987099b42b140c257ae4a92a
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 6757ab7018257bc4ba807ad2acd3a194, type: 2}

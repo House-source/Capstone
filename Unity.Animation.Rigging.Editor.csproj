@@ -56,9 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -111,8 +108,8 @@
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\AnimationRig\Constraints\TwistChainConstraintEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\InverseSolve\Constraints\MultiParentInverseConstraint.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\Utils\BoneRendererUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\Utils\AnimationWindowUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\InverseSolve\Constraints\MultiRotationInverseConstraint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\Utils\AnimationWindowUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\InverseSolve\AnimationJobs\MultiAimInverseConstraintJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\Attributes\BakeParametersAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.animation.rigging@1.2.1\Editor\Utils\FoldoutState.cs" />
@@ -491,6 +488,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -517,10 +518,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">

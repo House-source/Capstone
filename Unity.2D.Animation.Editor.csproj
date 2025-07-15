@@ -56,9 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\House\Capstone\Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -68,8 +65,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\GenerateWeightsPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\CharacterModeTool\SwitchModeTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\OutlineGenerator\OutlineGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\UI\LabelsTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\RigToolbar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\UI\LabelsTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCopyUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\BoneToolbar.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\WeightsGenerator\IWeightsGenerator.cs" />
@@ -77,8 +74,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\SkeletonCacheExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\LayoutOverlay\LayoutOverlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\MeshUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\BoneDrawingUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\VisibilityTool\VisibilityToolColumnHeader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\BoneDrawingUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibrarySourceAsset\SpriteLibraryDataInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selection\SkeletonSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\UpgradeTools\Utilities\UpgradeLogWriter.cs" />
@@ -133,8 +130,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\VisibilityTool\BoneTreeViewModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpritePostProcess.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\MeshCache.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\ModuleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SelectionTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\ModuleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\MeshTool\MeshTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningSerializer\ISkinningSerializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteSkin\SpriteSkinEditor.cs" />
@@ -142,11 +139,11 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selection\BoneSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\PastePanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\PivotTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\WeightsGenerator\BoundedBiharmonicWeightsGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\SpriteLibraryEditorModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\WeightsGenerator\BoundedBiharmonicWeightsGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\AssociateBonesScope.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryDataProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteSkin\BoneGizmo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryDataProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SerializableDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selection\ITransformSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\MeshPreviewTool\MeshPreviewTool.cs" />
@@ -184,13 +181,13 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selectors\RectBoneSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selectors\ICircleSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\SpriteLibraryEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\VisibilityTool\BoneVisibilityTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\SpriteLibraryEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\WeightInspectorIMGUIPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SpriteBoneInfluence\InfluenceWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\IMGUI\ISpriteMeshView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkeletonTool\SkeletonToolWrapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\UpgradeTools\SpriteLibUpgrader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkeletonTool\SkeletonToolWrapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selectors\CircleVertexSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\SkinningCachePersistentState.cs" />
@@ -199,8 +196,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Selectors\GenericVertexSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkeletonTool\SkeletonStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\GenerateGeometryTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\UI\CustomElements\RenamableCollections.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\UpgradeTools\AnimClipUpgrader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryEditor\UI\CustomElements\RenamableCollections.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkeletonTool\SkeletonToolView.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\MeshPreviewCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibraryPropertyString.cs" />
@@ -230,13 +227,13 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\BoneCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Triangulation\ITriangulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\MeshPreviewTool\IMeshPreviewBehaviour.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Undo\UndoScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\Analytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Undo\UndoScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\UI\WeightPainterPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\VisibilityTool\MeshVisibilityTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\Triangulation\TriangulationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibCombineCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\SpriteCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SpriteLib\SpriteLibCombineCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkeletonTool\SkeletonTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\IMGUI\RectSelectionTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@9.1.0\Editor\SkinningModule\SkinningCache\BoneCacheExtensions.cs" />
@@ -668,6 +665,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.8.2\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -694,10 +695,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
