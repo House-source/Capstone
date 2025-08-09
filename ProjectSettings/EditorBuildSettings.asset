@@ -32,6 +32,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Screens/BlockSmasher/Level5.unity
     guid: 33ebaa2e987099b42b140c257ae4a92a
+  - enabled: 1
+    path: Assets/Game Screens/Paper Plane 3D/PaperPlane.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Game Screens/Wrist Wings/WristWings.unity
+    guid: 2fed3d650099a8b49b27c353369c7f33
+  - enabled: 1
+    path: Assets/Game Screens/Minigame Mode/MinigameManager.unity
+    guid: 74bbc9caa73ec69408918e25c7a20d76
+  - enabled: 1
+    path: Assets/Game Screens/Minigame Mode/BlockSmasherGlobalMinigame.unity
+    guid: bb9f1eabfdd4f6d4f8902bd290ac4a8b
+  - enabled: 1
+    path: Assets/Game Screens/Minigame Mode/PaperPlaneMinigame.unity
+    guid: ee19a27763ba0b046958dd80116fed13
+  - enabled: 1
+    path: Assets/Game Screens/Minigame Mode/WristWingsMinigame.unity
+    guid: fa3eb2f3f35e1d74d9cd7faac3ead999
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 6757ab7018257bc4ba807ad2acd3a194, type: 2}
